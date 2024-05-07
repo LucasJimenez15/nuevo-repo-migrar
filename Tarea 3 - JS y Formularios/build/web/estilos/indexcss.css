@@ -1,0 +1,54 @@
+h1{
+    font-family: cursive;
+    color: green;
+    text-align: center;
+}
+
+h2{
+    font-family: cursive;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-family: cursive;
+}
+
+#MenuNavPrincipal li{
+    font-family: cursive;
+    font-size: 20px;
+    background-color: red;
+    text-decoration: none;
+    display: inline;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px
+}
+
+#MenuNavPrincipal li a{
+    text-align: center;
+    color: white;
+}
+
+#MenuNavPrincipal{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h3{
+    padding-top: 50px;
+    font-family: monospace;
+    font-size: 30px;
+}
+img{
+    width: 800px;
+    height: 400px;
+    border: solid red;
+    padding-top: 0;
+}

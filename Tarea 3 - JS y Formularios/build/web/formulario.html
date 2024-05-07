@@ -1,0 +1,89 @@
+
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Formulario HTML5</h1>
+        <form id="formulario" method="post" action="">
+            <fieldset>
+                <legend>Formulario</legend>
+                <div>
+                    <!--el label es para poder identificar a cada campo del formulario y se usa el atributo for para indicar a que elemento de este
+                    nos estamos refiriendo-->   
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" required autofocus>
+                </div>
+                <!--El atributo "autofocus" en un campo de formulario HTML indica al navegador que debe poner el foco en ese campo 
+                automáticamente cuando la página se carga. Esto significa que el cursor del usuario estará automáticamente dentro de ese 
+                campo de entrada, lo que facilita y agiliza la entrada de datos, especialmente cuando hay un solo campo en el formulario.-->
+                <br>
+                <div>
+                    <label for="email">Correo electrónico: </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="url">URL: </label>
+                    <input type="url" id="url" name="url" placeholder="Escribe la URL de tu página web personal">
+                </div>
+                <br>
+                <div>
+                    <label for="fecha">Fecha: </label>
+                    <input type="date" id="fecha" name="fecha">
+                </div>
+                <br>
+                <div>
+                    <label for="tiempo">Tiempo: </label>
+                    <input type="time" id="tiempo" name="tiempo">
+                </div>
+                <br>
+                <div>
+                    <label for="fechaHora">Fecha y hora:</label>
+                    <input type="datetime-local" id="fechaHora" name="fechaHora">
+                </div>
+                <br>
+                <div>
+                    <label for="mes">Mes:</label>
+                    <input type="month" id="mes" name="mes">
+                </div>
+                <br>
+                <div>
+                    <label for="semana">Semana:</label>
+                    <input type="week" id="semana" name="semana">
+                </div>
+                <br>
+                <div>
+                    <label for="numero">Número:</label>
+                    <input type="number" id="numero" name="numero" max="999">
+                    <button type="button" onclick="escribirEnLetras()">Escribir en letras</button>
+                </div>
+                <br>
+                <div>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <br>
+                <div>
+                    <label for="busqueda">Término de búsqueda:</label>
+                    <input type="search" id="busqueda" name="busqueda">
+                </div>
+                <br>
+                <div>
+                    <label for="color">Color favorito:</label>
+                    <input type="color" id="color" name="color">
+                </div>
+                <br>
+                <div>
+                    <label for="codigo">Código:</label>
+                    <input type="text" id="codigo" name="codigo" pattern="^[A-Za-z]{2}-\d{4}$">
+                </div>
+                <br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+        <script src="funciones/formulario.js" type="text/javascript"></script>
+    </body>
+</html>

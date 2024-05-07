@@ -1,0 +1,38 @@
+
+button{
+    margin: 5px;
+    padding: 20px;
+}
+
+#display{
+    margin: 10px;
+    padding: 20px;
+}
+
+h1{
+    font-family: cursive;
+    color: green;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-family: cursive;
+}
+
+a{
+    position: absolute;
+    font-family: arial;
+    background-color: pink;
+    text-align: center;
+    top: 0 ;
+    padding: 20px;
+    color: black;
+    left : 0;
+}
